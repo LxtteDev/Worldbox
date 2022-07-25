@@ -343,7 +343,8 @@
                     346: "31d6cfe0d16ae931b73c",
                   }[e] +
                   ".css",
-                b = r.p + a,
+                // b = r.p + a,
+                b = "./_next/" + a,
                 t = document.getElementsByTagName("link"),
                 n = 0;
               n < t.length;
@@ -395,8 +396,8 @@
           r.nc && n.setAttribute("nonce", r.nc),
           (n.src = (function (e) {
             return (
-              r.p +
-              "static/chunks/" +
+              // r.p +
+              "./_next/static/chunks/" +
               ({
                 0: "framework",
                 2: "commons",
